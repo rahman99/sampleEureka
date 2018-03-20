@@ -11,3 +11,14 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      
+zuul:
+  routes:
+    app1:
+      path: /app1/**
+      StripPrefix: false
+      url: http://localhost:8071
+    app2:
+      path: /app2/**
+      StripPrefix: false
+      url: http://localhost:8072

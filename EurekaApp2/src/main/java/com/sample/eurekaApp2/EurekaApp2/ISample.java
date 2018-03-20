@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface ISample {
 
 	//this is mapping in App1 path
-	@RequestMapping("/rest/hello/server")
+	@RequestMapping("/app1/hello/server")
     String hello();
 }
