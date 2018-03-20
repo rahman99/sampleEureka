@@ -1,0 +1,15 @@
+EurekaApp1/.mvn/*
+EurekaApp1/mvnw*
+EurekaApp1/.gitignore
+
+EurekaApp2/.mvn/*
+EurekaApp2/mvnw*
+EurekaApp2/.gitignore
+
+EurekaServer/.mvn/*
+EurekaServer/mvnw*
+EurekaServer/.gitignore
+EurekaServer/.classpath
+EurekaServer/.project
+EurekaServer/.settings/*
+EurekaServer/target/*
