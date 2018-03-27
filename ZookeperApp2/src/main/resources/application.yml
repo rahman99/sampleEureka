@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: zookeeperApp2
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        enabled: true
+server:
+  port: 8074
+endpoints:
+  restart:
+    enabled: true
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN

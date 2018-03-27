@@ -22,7 +22,7 @@ public class HelloResource {
             )
     @GetMapping
     public String hello() {
-        String url = "http://EurekaApp1/app1/hello/server";
+        String url = "http://localhost:8071/app1/hello/server";
         return restTemplate.getForObject(url, String.class);
     }
 
