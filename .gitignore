@@ -14,8 +14,16 @@ EurekaServer/.project
 EurekaServer/.settings/*
 EurekaServer/target/*
 
-ZookeperApp1/mvnw*
-ZookeperApp1/.gitignore
-ZookeperApp1./mvn/*
+ZookeperApp1/.classpath
+ZookeperApp1/.project
+ZookeperApp1/.settings/
+ZookeperApp1/bin/
+ZookeperApp1/target/
+ZookeperApp2/.classpath
+ZookeperApp2/.project
+ZookeperApp2/.settings/
+ZookeperApp2/bin/
+ZookeperApp2/target/
+
 
 
